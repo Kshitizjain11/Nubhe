@@ -4,7 +4,7 @@ import ri_question from '../assets/page1/ri_question-fill.svg'
 
 const Navbar = () => {
   return (
-    <div className='w-full h-16 fixed top-0 flex justify-between px-20 items-center marcellus  border-b'>
+    <div className='w-full bg-[#FEFDF6] z-10 h-16 fixed top-0 flex justify-between px-20 items-center marcellus  border-b'>
         <div className="text-[40px]">NUBHÉ</div>
         <div className="flex gap-7">
             <div className="">About</div>
