@@ -13,7 +13,7 @@ const Page3 = () => {
             <div className="w-[50%] transition-all  ease-out">
                 <img className=' ml-26' src={`src/assets/Page3/${coverImg}.svg`} alt={coverImg} />
             </div>
-            <div className="px-20 flex gap-4 flex-col ">
+            <div className="pr-5 flex gap-4 flex-col ">
                 <div onMouseOver={()=>handleCoverImg("Water")} onMouseLeave={MouseOverCoverImg} className="flex justify-around hover:scale-105 transition-all duration-300 ease-in-out gap-4">
                     <div className="img w-[65%] h-full">
                         <img className='' src="src/assets/Page3/lemonade.png" alt="Water" />
