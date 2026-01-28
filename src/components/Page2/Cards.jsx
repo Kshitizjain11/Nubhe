@@ -67,14 +67,14 @@ const Cards = () => {
 
   return (
     <>
-    <div className='flex gap-[18px] mt-[-10px]  '>
+    <div className='flex mt-[-10px]  '>
       <Swiper 
-      navigation={true} 
-      breakpoints={{
-        640: {slidesPerView: 1 ,spaceBetween:20},
-        768: {slidesPerView: 2 ,spaceBetween:20},
-        1024: {slidesPerView: 3 ,spaceBetween:20}
-      }}
+      navigation={false} 
+        breakpoints={{
+          640: {slidesPerView: 1 ,spaceBetween:10},
+          768: {slidesPerView: 2 ,spaceBetween:10},
+          1024: {slidesPerView: 3 ,spaceBetween:12}
+        }}
       modules={[Navigation]} 
       className="mySwiper">
       {data.map((data)=>(
