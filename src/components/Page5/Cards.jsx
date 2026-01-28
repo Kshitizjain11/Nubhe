@@ -33,7 +33,7 @@ const Cards = () => {
   const handleLeave = (index) => {
     gsap.to(cardRefs.current[index], {
       y: '100%',
-      duration: 0.6,
+      duration: 0.42,
       ease: 'power3.in',
     })
   }

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import podcast from "../../assets/Page4/Podcast.svg"
 const Podcast = () => {
   return (
     <div className='w-full h-screen'>
-        <img className='w-full' src="src/assets/Page4/Podcast.svg" alt="Podcast" />
+        <img className='w-full' src={podcast} alt="Podcast" />
     </div>
   )
 }
