@@ -5,6 +5,7 @@ import Page3 from './components/Page3/Page3'
 import Page2 from './components/Page2/Slider'
 import Podcast from './components/Page4/Page4'
 import Footer from './components/Footer'
+import Page5 from './components/Page5/Page5'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Page2/>
       <Page3/>
       <Podcast/>
+      <Page5/>
       <Footer/>
     </div>
   )

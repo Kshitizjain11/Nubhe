@@ -10,7 +10,7 @@ const Page3 = () => {
     }
 
     return (
-        <div className='h-screen w-full flex justify-between pt-20 '>
+        <div className='h-screen w-full flex justify-between pt-20 mb-10 '>
             <div className="w-[50%] transition-all ease-out">
                 <img className='ml-24' src={`src/assets/Page3/${coverImg}.svg`} alt={coverImg} />
             </div>
