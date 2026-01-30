@@ -69,7 +69,7 @@ const Cards = () => {
     <>
     <div className='flex mt-[-10px]  '>
       <Swiper 
-      navigation={false} 
+      navigation={true} 
         breakpoints={{
           640: {slidesPerView: 1 ,spaceBetween:10},
           768: {slidesPerView: 2 ,spaceBetween:10},
@@ -80,7 +80,7 @@ const Cards = () => {
       {data.map((data)=>(
         <SwiperSlide key={data.title} >
           <div style={{ backgroundColor: data.bg, color: data.textColor}}
-        className='rounded-[26.45px] mt-[60px]  max-w-[376px] h-[420px] overflow-hidden'>
+        className='rounded-[26.45px] mt-[60px]  max-w-[430px] h-[420px] overflow-hidden'>
          <div className='rounded-t-[26.45px] '>
            <img className='w-full h-[100px] object-cover object-center rounded-t-[26.45px]' src={data.image} alt="" />
          </div>
